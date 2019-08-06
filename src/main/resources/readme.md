@@ -1,6 +1,10 @@
+后台管理ui：
+https://www.cnblogs.com/herozhou/p/7434931.html
+https://github.com/herozhou/vue-framework-wz
+
 https://blog.csdn.net/weixin_42685022/article/details/82215893
 1、mybatis自动生成xml，entity，mppper接口
-
+2、集成dubbo、zk
 
 
 服务器：
