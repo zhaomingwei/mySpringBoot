@@ -4,6 +4,7 @@ import com.sun.glass.ui.Application;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -17,6 +18,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = Application.class)//指定springboot启动方式
+@SpringBootApplication(scanBasePackages = {"com.zw.cn.myspringboot"})//扫描带有注解的类
 public class InspectionTest {
     @Autowired
     private InspectionSolverChooser chooser;
