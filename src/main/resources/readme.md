@@ -1,6 +1,10 @@
+后台管理ui：
+https://www.cnblogs.com/herozhou/p/7434931.html
+https://github.com/herozhou/vue-framework-wz
+
 https://blog.csdn.net/weixin_42685022/article/details/82215893
 1、mybatis自动生成xml，entity，mppper接口
-
+2、集成dubbo、zk
 
 
 服务器：
@@ -19,3 +23,8 @@ password: weiwei123
 email: 874336775@qq.com
 实例: http://192.168.0.107:8080/jenkins/
 3、集成dubbo、zk
+
+
+
+DEMO：
+1、增加if else 改为策略模式案例
