@@ -1,4 +1,4 @@
-package com.zw.cn.myspringboot.demo.strage;
+package com.zw.cn.myspringboot.demo.ifelse2strage;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

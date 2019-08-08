@@ -6,7 +6,7 @@ if("BATCH_1".equals(taskType)){
 }else if("BATCH_3".equals(taskType)){
    //批量替换订单商品逻辑
 }else if("BATCH_4".equals(taskType)){
-   //批量伤处订单商品逻辑
+   //批量删除订单商品逻辑
 }else if("BATCH_5".equals(taskType)){
    //批量添加备注逻辑
 }else{
@@ -42,3 +42,5 @@ public class InspectionSolverChooser implements ApplicationContextAware {
         this.applicationContext = applicationContext;
     }
 }
+
+3、定义不同的处理器类型（都继承InspectionSolver，需Spring管理，所以得加个Component注解）
