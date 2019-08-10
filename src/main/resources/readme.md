@@ -10,11 +10,23 @@ https://blog.csdn.net/weixin_42685022/article/details/82215893
 服务器：
 1、tomcat: https://blog.csdn.net/weixin_42603777/article/details/83715169
 2、maven: https://blog.csdn.net/weixin_37352094/article/details/80375350
-2、集成jekins：https://www.jianshu.com/p/ee092bb7c239、https://www.cnblogs.com/cheng95/p/6542036.html、https://www.jianshu.com/p/cfa5bb7841d6
-首次安装不能下载插件：https://blog.csdn.net/xiaojin21cen/article/details/81181503
+
+3、集成jekins：https://www.jianshu.com/p/ee092bb7c239、
+https://www.cnblogs.com/cheng95/p/6542036.html、
+https://www.jianshu.com/p/cfa5bb7841d6
+
+https://blog.csdn.net/javahighness/article/details/52641694
+https://segmentfault.com/a/1190000018679928?utm_source=tag-newest
+https://www.cnblogs.com/jackstrong/p/6064856.html
+
 cd ~/.ssh/   
 ll
 id_rsa  id_rsa.pub
+
+首次安装不能下载插件：
+https://blog.csdn.net/xiaojin21cen/article/details/81181503
+https://www.cnblogs.com/forever521Lee/p/9356212.html
+cd ~/.jenkins
 
 jenkins -> 
 user: zhaowei  
@@ -22,7 +34,7 @@ password: weiwei123
 全名: zhaowei
 email: 874336775@qq.com
 实例: http://192.168.0.107:8080/jenkins/
-3、集成dubbo、zk
+4、集成dubbo、zk
 
 
 
