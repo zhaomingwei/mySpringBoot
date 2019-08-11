@@ -6,7 +6,6 @@ https://blog.csdn.net/weixin_42685022/article/details/82215893
 1、mybatis自动生成xml，entity，mppper接口
 2、集成dubbo、zk
 
-
 服务器：
 1、tomcat: https://blog.csdn.net/weixin_42603777/article/details/83715169
 2、maven: https://blog.csdn.net/weixin_37352094/article/details/80375350
@@ -23,10 +22,14 @@ cd ~/.ssh/
 ll
 id_rsa  id_rsa.pub
 
-首次安装不能下载插件：
-https://blog.csdn.net/xiaojin21cen/article/details/81181503
-https://www.cnblogs.com/forever521Lee/p/9356212.html
 cd ~/.jenkins
+
+4、nginx反向代理负载均衡
+https://blog.csdn.net/jinhaijing/article/details/82900344
+https://www.cnblogs.com/chensiqiqi/category/925311.html
+
+
+
 
 jenkins -> 
 user: zhaowei  
