@@ -1,5 +1,7 @@
 package com.zw.cn.myspringboot.demo.threadTest;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Created with IntelliJ IDEA.
  * User: zhaowei
@@ -9,12 +11,29 @@ package com.zw.cn.myspringboot.demo.threadTest;
  * Description: TODO
  */
 public class ThreadTest {
-
-
-    
-    Thread t1 = new Thread();
-    Thread t2 = new Thread();
-    Thread t3 = new Thread();
-
-
+    public static void main(String[] args) throws InterruptedException {
+        Thread previous = Thread.currentThread();
+        for(int i=0;i<10;i++){
+            Thread thread = new Thread(new Domino(previous), String.valueOf(i));
+            thread.start();
+            previous = thread;
+        }
+        TimeUnit.SECONDS.sleep(5);
+        System.out.println(Thread.currentThread().getName() + " terminate.");
+    }
+    public static class Domino implements Runnable{
+        private  Thread thread;
+        public Domino(Thread previous) {
+            this.thread = previous;
+        }
+        @Override
+        public void run() {
+            try {
+                thread.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println(Thread.currentThread().getName() + " terminate.");
+        }
+    }
 }

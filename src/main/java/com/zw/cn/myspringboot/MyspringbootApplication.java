@@ -5,11 +5,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
+import java.util.Date;
+
 @SpringBootApplication
 public class MyspringbootApplication extends SpringBootServletInitializer{
 
     public static void main(String[] args) {
-        SpringApplication.run(MyspringbootApplication.class, args);
+//        SpringApplication.run(MyspringbootApplication.class, args);
+        System.out.println((new Date()).getTime());
     }
 
     @Override
